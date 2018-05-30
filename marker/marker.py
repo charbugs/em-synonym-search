@@ -7,7 +7,7 @@ vocab = nlp.vocab
 def get_setup():
 	return {
 		'title': 'Synonyms Search',
-		'description': "Highlight the search term and it's synonyms.",
+		'description': "This marker highlights the search term and its synonyms. It works only for German texts.",
 		'inputs': [{
 			'id': 'word',
 			'label': 'Search Term',
